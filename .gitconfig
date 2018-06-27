@@ -1,0 +1,22 @@
+[user]
+	name = Brock Klein
+	email = bcklein1@gmail.com
+[github]
+    user = username
+[alias]
+    a = add
+    ca = commit -a
+    cam = commit -am
+    s = status
+    pom = push origin master
+    pog = push origin gh-pages
+    puom = pull origin master
+    puog = pull origin gh-pages
+    cob = checkout -b
+[credential]
+    helper = osxkeychain
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
