@@ -2,6 +2,8 @@ tap 'caskroom/cask'
 
 brew 'git'
 brew 'npm'
+brew 'heroku/brew/heroku'
+
 
 cask 'google-chrome'
 cask 'moom'
