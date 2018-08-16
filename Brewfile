@@ -27,6 +27,7 @@ cask 'monit'
 cask 'contexts'
 cask 'rocket'
 cask 'sublime-text'
+cask 'redis'
 
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
